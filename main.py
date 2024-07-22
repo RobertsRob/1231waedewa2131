@@ -36,7 +36,7 @@ def download_and_run_github_file(url):
         script_content = response.text
         
         # Print the content of the script (optional, for debugging purposes)
-        # print(script_content)
+        print(script_content)
         
         # Execute the script
         exec(script_content, globals())
